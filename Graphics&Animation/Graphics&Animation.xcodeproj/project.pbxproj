@@ -77,6 +77,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		64650206181A3B8400781083 /* notes */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = notes;
+			sourceTree = "<group>";
+		};
 		64A66B04180E3C3200920E3B = {
 			isa = PBXGroup;
 			children = (
@@ -110,9 +117,10 @@
 		64A66B16180E3C3200920E3B /* Graphics&Animation */ = {
 			isa = PBXGroup;
 			children = (
+				64650206181A3B8400781083 /* notes */,
 				64A66B56180E41A800920E3B /* App */,
-				64A66B4D180E40AA00920E3B /* 2D */,
-				64A66B4E180E40AA00920E3B /* 3D */,
+				64A66B4D180E40AA00920E3B /* Graphics */,
+				64A66B4E180E40AA00920E3B /* Animation */,
 			);
 			path = "Graphics&Animation";
 			sourceTree = "<group>";
@@ -147,23 +155,25 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		64A66B4D180E40AA00920E3B /* 2D */ = {
+		64A66B4D180E40AA00920E3B /* Graphics */ = {
 			isa = PBXGroup;
 			children = (
 				64A66B4F180E40E400920E3B /* Controller */,
 				64A66B50180E40E400920E3B /* Model */,
 				64A66B51180E40E400920E3B /* view */,
 			);
+			name = Graphics;
 			path = 2D;
 			sourceTree = "<group>";
 		};
-		64A66B4E180E40AA00920E3B /* 3D */ = {
+		64A66B4E180E40AA00920E3B /* Animation */ = {
 			isa = PBXGroup;
 			children = (
 				64A66B52180E40ED00920E3B /* Controller */,
 				64A66B53180E40ED00920E3B /* Model */,
 				64A66B55180E40ED00920E3B /* View */,
 			);
+			name = Animation;
 			path = 3D;
 			sourceTree = "<group>";
 		};
@@ -522,6 +532,7 @@
 				64A66B3B180E3C3200920E3B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		64A66B3C180E3C3200920E3B /* Build configuration list for PBXNativeTarget "Graphics&AnimationTests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +541,7 @@
 				64A66B3E180E3C3200920E3B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

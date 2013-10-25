@@ -63,9 +63,9 @@
 
 - (NSString *)tableView:(UITableView *)tableView titleForHeaderInSection:(NSInteger)section {
     if (section == 0){
-        return @"2D";
+        return @"Graphics";
     } else if (section == 1) {
-        return @"3D";
+        return @"Animation";
     } else {
         return nil;
     }
@@ -84,9 +84,9 @@
 
 #pragma mark - UITableView Delegates
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
-    if (indexPath.section == 0 && indexPath.row == 1) {
-        
-    } else if (indexPath.section == 1 && indexPath.row == 1) {
+    if (indexPath.section == 0 && indexPath.row == 0) {
+       
+    } else if (indexPath.section == 1 && indexPath.row == 0) {
         
     }
 }
