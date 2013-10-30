@@ -7,19 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		640B032F18209FF50077A070 /* goodboy1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 640B032E18209FF50077A070 /* goodboy1@2x.png */; };
 		64A66B11180E3C3200920E3B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64A66B10180E3C3200920E3B /* Foundation.framework */; };
 		64A66B13180E3C3200920E3B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64A66B12180E3C3200920E3B /* CoreGraphics.framework */; };
 		64A66B15180E3C3200920E3B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64A66B14180E3C3200920E3B /* UIKit.framework */; };
-		64A66B1B180E3C3200920E3B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 64A66B19180E3C3200920E3B /* InfoPlist.strings */; };
-		64A66B1D180E3C3200920E3B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 64A66B1C180E3C3200920E3B /* main.m */; };
-		64A66B21180E3C3200920E3B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 64A66B20180E3C3200920E3B /* AppDelegate.m */; };
-		64A66B23180E3C3200920E3B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 64A66B22180E3C3200920E3B /* Images.xcassets */; };
 		64A66B2A180E3C3200920E3B /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64A66B29180E3C3200920E3B /* XCTest.framework */; };
 		64A66B2B180E3C3200920E3B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64A66B10180E3C3200920E3B /* Foundation.framework */; };
 		64A66B2C180E3C3200920E3B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64A66B14180E3C3200920E3B /* UIKit.framework */; };
 		64A66B34180E3C3200920E3B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 64A66B32180E3C3200920E3B /* InfoPlist.strings */; };
 		64A66B36180E3C3200920E3B /* Graphics_AnimationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 64A66B35180E3C3200920E3B /* Graphics_AnimationTests.m */; };
-		64A66B59180E421800920E3B /* GAMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 64A66B58180E421800920E3B /* GAMainViewController.m */; };
+		64E8FB1C181F7B970019A3BD /* GAViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 64E8FB1B181F7B970019A3BD /* GAViewController.m */; };
+		64E8FB1F181F7BF80019A3BD /* GACAAnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 64E8FB1E181F7BF80019A3BD /* GACAAnimationViewController.m */; };
+		64E8FB25181F90ED0019A3BD /* GACAAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 64E8FB24181F90ED0019A3BD /* GACAAnimation.m */; };
+		64E8FB28181FC3400019A3BD /* goodboy0@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 64E8FB27181FC3400019A3BD /* goodboy0@2x.png */; };
+		64E8FB2A181FC4830019A3BD /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64E8FB29181FC4830019A3BD /* QuartzCore.framework */; };
+		64F44B8B181E740D00F20D7B /* GAMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 64F44B7C181E740D00F20D7B /* GAMainViewController.m */; };
+		64F44B8C181E740D00F20D7B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 64F44B7E181E740D00F20D7B /* AppDelegate.m */; };
+		64F44B8D181E740D00F20D7B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 64F44B80181E740D00F20D7B /* InfoPlist.strings */; };
+		64F44B8E181E740D00F20D7B /* Graphics&Animation-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 64F44B86181E740D00F20D7B /* Graphics&Animation-Info.plist */; };
+		64F44B8F181E740D00F20D7B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 64F44B88181E740D00F20D7B /* Images.xcassets */; };
+		64F44B90181E740D00F20D7B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 64F44B89181E740D00F20D7B /* main.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,24 +40,34 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		640B032E18209FF50077A070 /* goodboy1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "goodboy1@2x.png"; sourceTree = "<group>"; };
 		64A66B0D180E3C3200920E3B /* Graphics&Animation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Graphics&Animation.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		64A66B10180E3C3200920E3B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		64A66B12180E3C3200920E3B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		64A66B14180E3C3200920E3B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		64A66B18180E3C3200920E3B /* Graphics&Animation-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Graphics&Animation-Info.plist"; sourceTree = "<group>"; };
-		64A66B1A180E3C3200920E3B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		64A66B1C180E3C3200920E3B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		64A66B1E180E3C3200920E3B /* Graphics&Animation-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Graphics&Animation-Prefix.pch"; sourceTree = "<group>"; };
-		64A66B1F180E3C3200920E3B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = "Graphics&Animation/AppDelegate.h"; sourceTree = SOURCE_ROOT; };
-		64A66B20180E3C3200920E3B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = "Graphics&Animation/AppDelegate.m"; sourceTree = SOURCE_ROOT; };
-		64A66B22180E3C3200920E3B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = ../Images.xcassets; sourceTree = "<group>"; };
 		64A66B28180E3C3200920E3B /* Graphics&AnimationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Graphics&AnimationTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		64A66B29180E3C3200920E3B /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		64A66B31180E3C3200920E3B /* Graphics&AnimationTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Graphics&AnimationTests-Info.plist"; sourceTree = "<group>"; };
 		64A66B33180E3C3200920E3B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		64A66B35180E3C3200920E3B /* Graphics_AnimationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Graphics_AnimationTests.m; sourceTree = "<group>"; };
-		64A66B57180E421800920E3B /* GAMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAMainViewController.h; sourceTree = "<group>"; };
-		64A66B58180E421800920E3B /* GAMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GAMainViewController.m; sourceTree = "<group>"; };
+		64E8FB1A181F7B970019A3BD /* GAViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAViewController.h; sourceTree = "<group>"; };
+		64E8FB1B181F7B970019A3BD /* GAViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GAViewController.m; sourceTree = "<group>"; };
+		64E8FB1D181F7BF80019A3BD /* GACAAnimationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GACAAnimationViewController.h; sourceTree = "<group>"; };
+		64E8FB1E181F7BF80019A3BD /* GACAAnimationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GACAAnimationViewController.m; sourceTree = "<group>"; };
+		64E8FB20181F8D030019A3BD /* GAMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAMacro.h; sourceTree = "<group>"; };
+		64E8FB23181F90ED0019A3BD /* GACAAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GACAAnimation.h; sourceTree = "<group>"; };
+		64E8FB24181F90ED0019A3BD /* GACAAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GACAAnimation.m; sourceTree = "<group>"; };
+		64E8FB27181FC3400019A3BD /* goodboy0@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "goodboy0@2x.png"; sourceTree = "<group>"; };
+		64E8FB29181FC4830019A3BD /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		64F44B7B181E740D00F20D7B /* GAMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAMainViewController.h; sourceTree = "<group>"; };
+		64F44B7C181E740D00F20D7B /* GAMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GAMainViewController.m; sourceTree = "<group>"; };
+		64F44B7D181E740D00F20D7B /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = "Graphics&Animation/AppDelegate.h"; sourceTree = SOURCE_ROOT; };
+		64F44B7E181E740D00F20D7B /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = "Graphics&Animation/AppDelegate.m"; sourceTree = SOURCE_ROOT; };
+		64F44B81181E740D00F20D7B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = InfoPlist.strings; sourceTree = "<group>"; };
+		64F44B86181E740D00F20D7B /* Graphics&Animation-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Graphics&Animation-Info.plist"; sourceTree = "<group>"; };
+		64F44B87181E740D00F20D7B /* Graphics&Animation-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Graphics&Animation-Prefix.pch"; sourceTree = "<group>"; };
+		64F44B88181E740D00F20D7B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		64F44B89181E740D00F20D7B /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +75,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				64E8FB2A181FC4830019A3BD /* QuartzCore.framework in Frameworks */,
 				64A66B13180E3C3200920E3B /* CoreGraphics.framework in Frameworks */,
 				64A66B15180E3C3200920E3B /* UIKit.framework in Frameworks */,
 				64A66B11180E3C3200920E3B /* Foundation.framework in Frameworks */,
@@ -77,13 +95,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		64650206181A3B8400781083 /* notes */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = notes;
-			sourceTree = "<group>";
-		};
 		64A66B04180E3C3200920E3B = {
 			isa = PBXGroup;
 			children = (
@@ -106,6 +117,7 @@
 		64A66B0F180E3C3200920E3B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				64E8FB29181FC4830019A3BD /* QuartzCore.framework */,
 				64A66B10180E3C3200920E3B /* Foundation.framework */,
 				64A66B12180E3C3200920E3B /* CoreGraphics.framework */,
 				64A66B14180E3C3200920E3B /* UIKit.framework */,
@@ -117,24 +129,18 @@
 		64A66B16180E3C3200920E3B /* Graphics&Animation */ = {
 			isa = PBXGroup;
 			children = (
-				64650206181A3B8400781083 /* notes */,
-				64A66B56180E41A800920E3B /* App */,
-				64A66B4D180E40AA00920E3B /* Graphics */,
-				64A66B4E180E40AA00920E3B /* Animation */,
+				64E8FB13181F54CB0019A3BD /* Resources */,
+				64F44B7A181E740D00F20D7B /* App */,
+				64F44B8A181E740D00F20D7B /* notes */,
+				64F44B76181E740D00F20D7B /* Animation */,
+				64F44B82181E740D00F20D7B /* Graphics */,
+				64F44B86181E740D00F20D7B /* Graphics&Animation-Info.plist */,
+				64F44B87181E740D00F20D7B /* Graphics&Animation-Prefix.pch */,
+				64F44B88181E740D00F20D7B /* Images.xcassets */,
+				64F44B89181E740D00F20D7B /* main.m */,
+				64F44B7F181E740D00F20D7B /* en.lproj */,
 			);
 			path = "Graphics&Animation";
-			sourceTree = "<group>";
-		};
-		64A66B17180E3C3200920E3B /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				64A66B18180E3C3200920E3B /* Graphics&Animation-Info.plist */,
-				64A66B19180E3C3200920E3B /* InfoPlist.strings */,
-				64A66B1C180E3C3200920E3B /* main.m */,
-				64A66B1E180E3C3200920E3B /* Graphics&Animation-Prefix.pch */,
-			);
-			name = "Supporting Files";
-			path = ..;
 			sourceTree = "<group>";
 		};
 		64A66B2F180E3C3200920E3B /* Graphics&AnimationTests */ = {
@@ -155,81 +161,124 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		64A66B4D180E40AA00920E3B /* Graphics */ = {
-			isa = PBXGroup;
-			children = (
-				64A66B4F180E40E400920E3B /* Controller */,
-				64A66B50180E40E400920E3B /* Model */,
-				64A66B51180E40E400920E3B /* view */,
-			);
-			name = Graphics;
-			path = 2D;
-			sourceTree = "<group>";
-		};
-		64A66B4E180E40AA00920E3B /* Animation */ = {
-			isa = PBXGroup;
-			children = (
-				64A66B52180E40ED00920E3B /* Controller */,
-				64A66B53180E40ED00920E3B /* Model */,
-				64A66B55180E40ED00920E3B /* View */,
-			);
-			name = Animation;
-			path = 3D;
-			sourceTree = "<group>";
-		};
-		64A66B4F180E40E400920E3B /* Controller */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Controller;
-			sourceTree = "<group>";
-		};
-		64A66B50180E40E400920E3B /* Model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		64A66B51180E40E400920E3B /* view */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = view;
-			sourceTree = "<group>";
-		};
-		64A66B52180E40ED00920E3B /* Controller */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Controller;
-			sourceTree = "<group>";
-		};
-		64A66B53180E40ED00920E3B /* Model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		64A66B55180E40ED00920E3B /* View */ = {
+		64E8FB0E181F52D40019A3BD /* View */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			path = View;
 			sourceTree = "<group>";
 		};
-		64A66B56180E41A800920E3B /* App */ = {
+		64E8FB13181F54CB0019A3BD /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				64A66B1F180E3C3200920E3B /* AppDelegate.h */,
-				64A66B20180E3C3200920E3B /* AppDelegate.m */,
-				64A66B57180E421800920E3B /* GAMainViewController.h */,
-				64A66B58180E421800920E3B /* GAMainViewController.m */,
-				64A66B22180E3C3200920E3B /* Images.xcassets */,
-				64A66B17180E3C3200920E3B /* Supporting Files */,
+				64E8FB16181F55150019A3BD /* Images */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		64E8FB16181F55150019A3BD /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				640B032E18209FF50077A070 /* goodboy1@2x.png */,
+				64E8FB27181FC3400019A3BD /* goodboy0@2x.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		64E8FB19181F7B7A0019A3BD /* GAframework */ = {
+			isa = PBXGroup;
+			children = (
+				64E8FB23181F90ED0019A3BD /* GACAAnimation.h */,
+				64E8FB24181F90ED0019A3BD /* GACAAnimation.m */,
+				64E8FB1A181F7B970019A3BD /* GAViewController.h */,
+				64E8FB1B181F7B970019A3BD /* GAViewController.m */,
+				64E8FB20181F8D030019A3BD /* GAMacro.h */,
+			);
+			path = GAframework;
+			sourceTree = "<group>";
+		};
+		64F44B76181E740D00F20D7B /* Animation */ = {
+			isa = PBXGroup;
+			children = (
+				64E8FB0E181F52D40019A3BD /* View */,
+				64F44B77181E740D00F20D7B /* Controller */,
+				64F44B78181E740D00F20D7B /* Model */,
+			);
+			path = Animation;
+			sourceTree = "<group>";
+		};
+		64F44B77181E740D00F20D7B /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				64E8FB1D181F7BF80019A3BD /* GACAAnimationViewController.h */,
+				64E8FB1E181F7BF80019A3BD /* GACAAnimationViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		64F44B78181E740D00F20D7B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		64F44B7A181E740D00F20D7B /* App */ = {
+			isa = PBXGroup;
+			children = (
+				64E8FB19181F7B7A0019A3BD /* GAframework */,
+				64F44B7B181E740D00F20D7B /* GAMainViewController.h */,
+				64F44B7C181E740D00F20D7B /* GAMainViewController.m */,
+				64F44B7D181E740D00F20D7B /* AppDelegate.h */,
+				64F44B7E181E740D00F20D7B /* AppDelegate.m */,
 			);
 			path = App;
+			sourceTree = "<group>";
+		};
+		64F44B7F181E740D00F20D7B /* en.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				64F44B80181E740D00F20D7B /* InfoPlist.strings */,
+			);
+			path = en.lproj;
+			sourceTree = "<group>";
+		};
+		64F44B82181E740D00F20D7B /* Graphics */ = {
+			isa = PBXGroup;
+			children = (
+				64F44B83181E740D00F20D7B /* Controller */,
+				64F44B84181E740D00F20D7B /* Model */,
+				64F44B85181E740D00F20D7B /* view */,
+			);
+			path = Graphics;
+			sourceTree = "<group>";
+		};
+		64F44B83181E740D00F20D7B /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		64F44B84181E740D00F20D7B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		64F44B85181E740D00F20D7B /* view */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		64F44B8A181E740D00F20D7B /* notes */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = notes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -307,8 +356,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				64A66B1B180E3C3200920E3B /* InfoPlist.strings in Resources */,
-				64A66B23180E3C3200920E3B /* Images.xcassets in Resources */,
+				640B032F18209FF50077A070 /* goodboy1@2x.png in Resources */,
+				64F44B8F181E740D00F20D7B /* Images.xcassets in Resources */,
+				64F44B8D181E740D00F20D7B /* InfoPlist.strings in Resources */,
+				64E8FB28181FC3400019A3BD /* goodboy0@2x.png in Resources */,
+				64F44B8E181E740D00F20D7B /* Graphics&Animation-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -327,9 +379,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				64A66B21180E3C3200920E3B /* AppDelegate.m in Sources */,
-				64A66B59180E421800920E3B /* GAMainViewController.m in Sources */,
-				64A66B1D180E3C3200920E3B /* main.m in Sources */,
+				64F44B8C181E740D00F20D7B /* AppDelegate.m in Sources */,
+				64E8FB1C181F7B970019A3BD /* GAViewController.m in Sources */,
+				64F44B90181E740D00F20D7B /* main.m in Sources */,
+				64F44B8B181E740D00F20D7B /* GAMainViewController.m in Sources */,
+				64E8FB25181F90ED0019A3BD /* GACAAnimation.m in Sources */,
+				64E8FB1F181F7BF80019A3BD /* GACAAnimationViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -352,18 +407,18 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		64A66B19180E3C3200920E3B /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				64A66B1A180E3C3200920E3B /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
 		64A66B32180E3C3200920E3B /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
 				64A66B33180E3C3200920E3B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		64F44B80181E740D00F20D7B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				64F44B81181E740D00F20D7B /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";

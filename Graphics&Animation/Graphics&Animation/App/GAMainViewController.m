@@ -7,6 +7,7 @@
 //
 
 #import "GAMainViewController.h"
+#import "GACAAnimationViewController.h"
 
 @interface GAMainViewController () <UITableViewDataSource,UITableViewDelegate>
 {
@@ -34,7 +35,7 @@
 
 #pragma mark - viewcontroller view init
 - (void)initView {
-    UITableView *tableView = [[UITableView alloc]initWithFrame:CGRectMake(0, 0, self.view.bounds.size.width, self.view.bounds.size.height) style:UITableViewStyleGrouped];
+    UITableView *tableView = [[UITableView alloc]initWithFrame:CGRectMake(0, 0, self.view.bounds.size.width, self.view.bounds.size.height) style:UITableViewStylePlain];
     [tableView setDelegate:self];
     [tableView setDataSource:self];
     [self.view addSubview:tableView];
@@ -44,10 +45,10 @@
     self.title = @"Graphics&Animation";
     dataSource = @[
                    @[
-                    @"UIView",
+                    @".......",
                     ],
                    @[
-                    @"CAnimation"
+                    @"CAAnimation"
                     ],
                    ];
 }
@@ -87,7 +88,8 @@
     if (indexPath.section == 0 && indexPath.row == 0) {
        
     } else if (indexPath.section == 1 && indexPath.row == 0) {
-        
+        GACAAnimationViewController *caanimationVC = [[GACAAnimationViewController alloc]init];
+        [self.navigationController pushViewController:caanimationVC animated:YES];
     }
 }
 

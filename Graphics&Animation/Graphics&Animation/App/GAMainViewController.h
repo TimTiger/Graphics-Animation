@@ -6,8 +6,8 @@
 //  Copyright (c) 2013年 TimTiger. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import "GAViewController.h"
 
-@interface GAMainViewController : UIViewController
+@interface GAMainViewController : GAViewController
 
 @end
