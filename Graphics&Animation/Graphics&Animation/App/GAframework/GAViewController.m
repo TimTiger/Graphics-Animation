@@ -26,11 +26,13 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    
     if (__SYS_VERSION__ >= 7.0f) {
         self.edgesForExtendedLayout = UIRectEdgeNone;
     }
-    
+}
+
+- (void)pushViewController:(GAViewController *)vc animated:(BOOL)animatied {
+    [self.navigationController pushViewController:vc animated:animatied];
 }
 
 - (void)didReceiveMemoryWarning

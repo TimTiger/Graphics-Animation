@@ -6,7 +6,7 @@
 //  Copyright (c) 2013年 TimTiger. All rights reserved.
 //
 
-#import "GAViewController.h"
+#import "GAframework.h"
 
 @interface GAMainViewController : GAViewController
 

@@ -134,7 +134,7 @@
     shake.fromValue = [NSNumber numberWithFloat:-0.2];
     shake.toValue = [NSNumber numberWithFloat:+0.2];
     shake.duration = 0.1;
-    //shake.beginTime = 1.0f;  // set beginTime can execute the animation in any order.
+    //shake.beginTime = 1.0f;  // set beginTime can execute the animations in any order.
     shake.autoreverses = YES; //is repeat
     shake.repeatCount = 10;
     shake.removedOnCompletion = YES;

@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		640B032F18209FF50077A070 /* goodboy1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 640B032E18209FF50077A070 /* goodboy1@2x.png */; };
+		640B033718222A070077A070 /* GAGraphics.m in Sources */ = {isa = PBXBuildFile; fileRef = 640B033618222A070077A070 /* GAGraphics.m */; };
+		640B033A1822322B0077A070 /* GADrawContextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 640B03391822322B0077A070 /* GADrawContextView.m */; };
 		64A66B11180E3C3200920E3B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64A66B10180E3C3200920E3B /* Foundation.framework */; };
 		64A66B13180E3C3200920E3B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64A66B12180E3C3200920E3B /* CoreGraphics.framework */; };
 		64A66B15180E3C3200920E3B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64A66B14180E3C3200920E3B /* UIKit.framework */; };
@@ -16,6 +18,7 @@
 		64A66B2C180E3C3200920E3B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64A66B14180E3C3200920E3B /* UIKit.framework */; };
 		64A66B34180E3C3200920E3B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 64A66B32180E3C3200920E3B /* InfoPlist.strings */; };
 		64A66B36180E3C3200920E3B /* Graphics_AnimationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 64A66B35180E3C3200920E3B /* Graphics_AnimationTests.m */; };
+		64B4178D183DE339006F589C /* BasicShapesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 64B4178C183DE339006F589C /* BasicShapesViewController.m */; };
 		64E8FB1C181F7B970019A3BD /* GAViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 64E8FB1B181F7B970019A3BD /* GAViewController.m */; };
 		64E8FB1F181F7BF80019A3BD /* GACAAnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 64E8FB1E181F7BF80019A3BD /* GACAAnimationViewController.m */; };
 		64E8FB25181F90ED0019A3BD /* GACAAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 64E8FB24181F90ED0019A3BD /* GACAAnimation.m */; };
@@ -41,6 +44,10 @@
 
 /* Begin PBXFileReference section */
 		640B032E18209FF50077A070 /* goodboy1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "goodboy1@2x.png"; sourceTree = "<group>"; };
+		640B033518222A070077A070 /* GAGraphics.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAGraphics.h; sourceTree = "<group>"; };
+		640B033618222A070077A070 /* GAGraphics.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GAGraphics.m; sourceTree = "<group>"; };
+		640B03381822322B0077A070 /* GADrawContextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADrawContextView.h; sourceTree = "<group>"; };
+		640B03391822322B0077A070 /* GADrawContextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GADrawContextView.m; sourceTree = "<group>"; };
 		64A66B0D180E3C3200920E3B /* Graphics&Animation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Graphics&Animation.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		64A66B10180E3C3200920E3B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		64A66B12180E3C3200920E3B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -50,6 +57,9 @@
 		64A66B31180E3C3200920E3B /* Graphics&AnimationTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Graphics&AnimationTests-Info.plist"; sourceTree = "<group>"; };
 		64A66B33180E3C3200920E3B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		64A66B35180E3C3200920E3B /* Graphics_AnimationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Graphics_AnimationTests.m; sourceTree = "<group>"; };
+		64B4178B183DE339006F589C /* BasicShapesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BasicShapesViewController.h; sourceTree = "<group>"; };
+		64B4178C183DE339006F589C /* BasicShapesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BasicShapesViewController.m; sourceTree = "<group>"; };
+		64B4178E183DEE00006F589C /* GAframework.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAframework.h; sourceTree = "<group>"; };
 		64E8FB1A181F7B970019A3BD /* GAViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAViewController.h; sourceTree = "<group>"; };
 		64E8FB1B181F7B970019A3BD /* GAViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GAViewController.m; sourceTree = "<group>"; };
 		64E8FB1D181F7BF80019A3BD /* GACAAnimationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GACAAnimationViewController.h; sourceTree = "<group>"; };
@@ -193,6 +203,9 @@
 				64E8FB1A181F7B970019A3BD /* GAViewController.h */,
 				64E8FB1B181F7B970019A3BD /* GAViewController.m */,
 				64E8FB20181F8D030019A3BD /* GAMacro.h */,
+				640B033518222A070077A070 /* GAGraphics.h */,
+				640B033618222A070077A070 /* GAGraphics.m */,
+				64B4178E183DEE00006F589C /* GAframework.h */,
 			);
 			path = GAframework;
 			sourceTree = "<group>";
@@ -256,6 +269,8 @@
 		64F44B83181E740D00F20D7B /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				64B4178B183DE339006F589C /* BasicShapesViewController.h */,
+				64B4178C183DE339006F589C /* BasicShapesViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -270,6 +285,8 @@
 		64F44B85181E740D00F20D7B /* view */ = {
 			isa = PBXGroup;
 			children = (
+				640B03381822322B0077A070 /* GADrawContextView.h */,
+				640B03391822322B0077A070 /* GADrawContextView.m */,
 			);
 			path = view;
 			sourceTree = "<group>";
@@ -382,6 +399,9 @@
 				64F44B8C181E740D00F20D7B /* AppDelegate.m in Sources */,
 				64E8FB1C181F7B970019A3BD /* GAViewController.m in Sources */,
 				64F44B90181E740D00F20D7B /* main.m in Sources */,
+				64B4178D183DE339006F589C /* BasicShapesViewController.m in Sources */,
+				640B033718222A070077A070 /* GAGraphics.m in Sources */,
+				640B033A1822322B0077A070 /* GADrawContextView.m in Sources */,
 				64F44B8B181E740D00F20D7B /* GAMainViewController.m in Sources */,
 				64E8FB25181F90ED0019A3BD /* GACAAnimation.m in Sources */,
 				64E8FB1F181F7BF80019A3BD /* GACAAnimationViewController.m in Sources */,

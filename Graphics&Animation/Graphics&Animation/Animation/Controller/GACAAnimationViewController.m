@@ -35,7 +35,7 @@
 }
 #pragma mark ---- View func
 - (void)initView {
-    self.title = @"CAAnimation";
+    self.title = @"Basic Animations";
     animationImageView = [[UIImageView alloc]initWithImage:[UIImage imageNamed:@"goodboy0.png"]];
     animationImageView.bounds = CGRectMake(0, 0,50, 50);
     animationImageView.center = CGPointMake(self.view.bounds.size.width/2, self.view.frame.origin.y+40);
@@ -49,6 +49,7 @@
 #pragma mark ---- Model func
 - (void)initModel {
     
+#ifdef DEBUG
     tableDataSource = @[
                         @[
                             @"CABasicAnimation",
@@ -62,6 +63,7 @@
     headerTitleArray = @[
                          @"CAAnimation",
                          ];
+#endif
 }
 
 #pragma mark ---- Control func

@@ -8,6 +8,7 @@
 
 #import "GAMainViewController.h"
 #import "GACAAnimationViewController.h"
+#import "BasicShapesViewController.h"
 
 @interface GAMainViewController () <UITableViewDataSource,UITableViewDelegate>
 {
@@ -45,10 +46,11 @@
     self.title = @"Graphics&Animation";
     dataSource = @[
                    @[
-                    @".......",
+                    @"Draw Basic Shapes",
                     ],
                    @[
-                    @"CAAnimation"
+                    @"Basic Animations",
+                    @"Test"
                     ],
                    ];
 }
@@ -86,10 +88,13 @@
 #pragma mark - UITableView Delegates
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
     if (indexPath.section == 0 && indexPath.row == 0) {
-       
+        BasicShapesViewController *basicShapesVC = [[BasicShapesViewController alloc]init];
+        [self pushViewController:basicShapesVC animated:YES];
     } else if (indexPath.section == 1 && indexPath.row == 0) {
         GACAAnimationViewController *caanimationVC = [[GACAAnimationViewController alloc]init];
-        [self.navigationController pushViewController:caanimationVC animated:YES];
+        [self pushViewController:caanimationVC animated:YES];
+    } else if (indexPath.section == 1 && indexPath.row == 1) {
+       
     }
 }
 

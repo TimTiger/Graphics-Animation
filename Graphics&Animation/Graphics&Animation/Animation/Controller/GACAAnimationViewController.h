@@ -6,7 +6,7 @@
 //  Copyright (c) 2013 TimTiger. All rights reserved.
 //
 
-#import "GAViewController.h"
+#import "GAframework.h"
 
 @interface GACAAnimationViewController : GAViewController <UITableViewDelegate,UITableViewDataSource>
 {

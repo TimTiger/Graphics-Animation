@@ -11,4 +11,6 @@
 
 @interface GAViewController : UIViewController
 
+- (void)pushViewController:(GAViewController *)vc animated:(BOOL)animatied;
+
 @end
